@@ -13,7 +13,7 @@ public:
 
 protected:
     std::pair<int, int> position;
-    int stepToQueen();
+    int distanceToQueen();
 };
 
 #endif //LIFEOFANTS_ANT_H

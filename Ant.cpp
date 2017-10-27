@@ -5,6 +5,6 @@ std::pair<int,int> Ant::getPosition() {
     return position;
 }
 
-int Ant::stepToQueen() {
+int Ant::distanceToQueen() {
     return abs(position.first) + abs(position.second);
 }
